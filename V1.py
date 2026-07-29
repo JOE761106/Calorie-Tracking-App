@@ -105,9 +105,9 @@ class calorie_app:
 
     def second_screen(self):
         if self.bmi < 18.5:
-            text = "You are just skin and bones wanna gain weight skelly?"
+            text = "You are underweight wanna gain weight??"
         elif self.bmi > 24.9:
-            text = "You are a fatty fat fat wanna lose weight chud?"
+            text = "your overweight wanna lost it?"
         else:
             text = "Your weight is healthy. Want to maintain it?"
 
